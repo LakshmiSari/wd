@@ -1,0 +1,104 @@
+2019-01-02T02:03:38.326Z INFO wdio-local-runner: Run worker command: run
+2019-01-02T02:03:38.401Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session
+2019-01-02T02:03:38.402Z INFO webdriver: DATA { capabilities: { alwaysMatch: { browserName: 'chrome' }, firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome' } }
+2019-01-02T02:03:42.653Z INFO webdriver: COMMAND navigateTo("https://list.aplaceformom.com/")
+2019-01-02T02:03:42.653Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/url
+2019-01-02T02:03:42.653Z INFO webdriver: DATA { url: 'https://list.aplaceformom.com/' }
+2019-01-02T02:03:44.448Z INFO webdriver: COMMAND getTitle()
+2019-01-02T02:03:44.448Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/title
+2019-01-02T02:03:44.456Z INFO webdriver: RESULT Local Senior Care Options | A Place for Mom
+2019-01-02T02:03:44.461Z INFO webdriver: COMMAND findElement("css selector", "#inputLocation")
+2019-01-02T02:03:44.461Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element
+2019-01-02T02:03:44.461Z INFO webdriver: DATA { using: 'css selector', value: '#inputLocation' }
+2019-01-02T02:03:44.483Z INFO webdriver: RESULT { ELEMENT: '0.051247269880424495-1' }
+2019-01-02T02:03:44.570Z INFO webdriver: COMMAND elementSendKeys("0.051247269880424495-1", <object>)
+2019-01-02T02:03:44.570Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element/0.051247269880424495-1/value
+2019-01-02T02:03:44.570Z INFO webdriver: DATA { value: [ '9', '8', '0', '0', '5' ] }
+2019-01-02T02:03:44.705Z INFO webdriver: COMMAND findElement("css selector", ".form-submit-btn")
+2019-01-02T02:03:44.705Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element
+2019-01-02T02:03:44.705Z INFO webdriver: DATA { using: 'css selector', value: '.form-submit-btn' }
+2019-01-02T02:03:44.727Z INFO webdriver: RESULT { ELEMENT: '0.051247269880424495-2' }
+2019-01-02T02:03:44.730Z INFO webdriver: COMMAND elementClick("0.051247269880424495-2")
+2019-01-02T02:03:44.730Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element/0.051247269880424495-2/click
+2019-01-02T02:03:47.890Z INFO webdriver: COMMAND findElement("css selector", "#leadFormFullname")
+2019-01-02T02:03:47.891Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element
+2019-01-02T02:03:47.891Z INFO webdriver: DATA { using: 'css selector', value: '#leadFormFullname' }
+2019-01-02T02:03:47.908Z INFO webdriver: RESULT { ELEMENT: '0.051247269880424495-3' }
+2019-01-02T02:03:47.911Z INFO webdriver: COMMAND elementSendKeys("0.051247269880424495-3", <object>)
+2019-01-02T02:03:47.912Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element/0.051247269880424495-3/value
+2019-01-02T02:03:47.912Z INFO webdriver: DATA { value: [ 'l', 'i', 's', 't', ' ', 't', 'e', 's', 't' ] }
+2019-01-02T02:03:48.043Z INFO webdriver: COMMAND findElement("css selector", "#leadFormEmailAddress")
+2019-01-02T02:03:48.044Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element
+2019-01-02T02:03:48.044Z INFO webdriver: DATA { using: 'css selector', value: '#leadFormEmailAddress' }
+2019-01-02T02:03:48.076Z INFO webdriver: RESULT { ELEMENT: '0.051247269880424495-4' }
+2019-01-02T02:03:48.080Z INFO webdriver: COMMAND elementSendKeys("0.051247269880424495-4", <object>)
+2019-01-02T02:03:48.081Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element/0.051247269880424495-4/value
+2019-01-02T02:03:48.081Z INFO webdriver: DATA { value: 
+   [ 'l',
+     'a',
+     'k',
+     's',
+     'h',
+     'm',
+     'i',
+     '@',
+     'l',
+     'i',
+     's',
+     't',
+     '.',
+     'c',
+     'o',
+     'm' ] }
+2019-01-02T02:03:48.295Z INFO webdriver: COMMAND findElement("css selector", "#leadFormPhone")
+2019-01-02T02:03:48.295Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element
+2019-01-02T02:03:48.295Z INFO webdriver: DATA { using: 'css selector', value: '#leadFormPhone' }
+2019-01-02T02:03:48.321Z INFO webdriver: RESULT { ELEMENT: '0.051247269880424495-5' }
+2019-01-02T02:03:48.324Z INFO webdriver: COMMAND elementSendKeys("0.051247269880424495-5", <object>)
+2019-01-02T02:03:48.324Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element/0.051247269880424495-5/value
+2019-01-02T02:03:48.324Z INFO webdriver: DATA { value: [ '7', '0', '8', '2', '3', '4', '5', '6', '7', '8' ] }
+2019-01-02T02:03:48.459Z INFO webdriver: COMMAND findElement("css selector", "#submit-btn")
+2019-01-02T02:03:48.459Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element
+2019-01-02T02:03:48.459Z INFO webdriver: DATA { using: 'css selector', value: '#submit-btn' }
+2019-01-02T02:03:48.482Z INFO webdriver: RESULT { ELEMENT: '0.051247269880424495-6' }
+2019-01-02T02:03:48.487Z INFO webdriver: COMMAND elementClick("0.051247269880424495-6")
+2019-01-02T02:03:48.488Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/element/0.051247269880424495-6/click
+2019-01-02T02:03:53.798Z INFO webdriver: COMMAND getTitle()
+2019-01-02T02:03:53.798Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/title
+2019-01-02T02:03:53.806Z INFO webdriver: RESULT Senior Assisted Living Guides: Find Senior Care A Place for Mom
+2019-01-02T02:03:53.808Z INFO webdriver: COMMAND getLogTypes()
+2019-01-02T02:03:53.809Z INFO webdriver: [GET] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/log/types
+2019-01-02T02:03:53.813Z INFO webdriver: RESULT [ 'server', 'browser', 'driver' ]
+2019-01-02T02:03:53.814Z INFO webdriver: COMMAND getLogs("server")
+2019-01-02T02:03:53.814Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/log
+2019-01-02T02:03:53.814Z INFO webdriver: DATA { type: 'server' }
+2019-01-02T02:03:53.814Z INFO webdriver: COMMAND getLogs("browser")
+2019-01-02T02:03:53.815Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/log
+2019-01-02T02:03:53.815Z INFO webdriver: DATA { type: 'browser' }
+2019-01-02T02:03:53.815Z INFO webdriver: COMMAND getLogs("driver")
+2019-01-02T02:03:53.815Z INFO webdriver: [POST] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc/log
+2019-01-02T02:03:53.815Z INFO webdriver: DATA { type: 'driver' }
+2019-01-02T02:03:53.822Z INFO webdriver: RESULT [ { level: 'INFO',
+    message: 'Capabilities are: {\n  "browserName": "chrome"\n}',
+    timestamp: 1546394618439 },
+  { level: 'INFO',
+    message: 'Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)',
+    timestamp: 1546394618439 },
+  { level: 'INFO',
+    message: 'Detected dialect: OSS',
+    timestamp: 1546394620782 },
+  { level: 'INFO',
+    message: 'Started new session 4a34034452fd265ce809c1838d0ec7bc (org.openqa.selenium.chrome.ChromeDriverService)',
+    timestamp: 1546394620834 } ]
+2019-01-02T02:03:53.825Z INFO webdriver: RESULT []
+2019-01-02T02:03:53.826Z INFO webdriver: RESULT [ { level: 'SEVERE',
+    message: 'https://www.aplaceformom.com/home/thank-you 111:4 Uncaught ReferenceError: fbq is not defined',
+    source: 'javascript',
+    timestamp: 1546394633802 },
+  { level: 'WARNING',
+    message: 'https://www.googleadservices.com/pagead/conversion.js 47 Failed to execute \'write\' on \'Document\': It isn\'t possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.',
+    source: 'javascript',
+    timestamp: 1546394633802 } ]
+2019-01-02T02:03:53.828Z INFO webdriver: COMMAND deleteSession()
+2019-01-02T02:03:53.828Z INFO webdriver: [DELETE] http://127.0.0.1:4444/wd/hub/session/4a34034452fd265ce809c1838d0ec7bc

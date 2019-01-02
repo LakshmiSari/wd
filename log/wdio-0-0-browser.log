@@ -1,0 +1,2 @@
+{"level":"SEVERE","message":"https://www.aplaceformom.com/home/thank-you 111:4 Uncaught ReferenceError: fbq is not defined","source":"javascript","timestamp":1546394633802}
+{"level":"WARNING","message":"https://www.googleadservices.com/pagead/conversion.js 47 Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.","source":"javascript","timestamp":1546394633802}

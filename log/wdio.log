@@ -1,0 +1,7 @@
+2019-01-02T02:03:36.350Z DEBUG wdio-config: wdio-sync found, running tests synchronous
+2019-01-02T02:03:37.505Z DEBUG wdio-cli:run: Run suite with config wdio.conf.js and params { _: [ 'wdio.conf.js' ],
+  '$0': 'node_modules\\@wdio\\cli\\bin\\wdio.js' }
+2019-01-02T02:03:37.546Z INFO wdio-cli:Launcher: Run onPrepare hook
+2019-01-02T02:03:37.551Z INFO wdio-local-runner: Start worker 0-0 with arg: wdio.conf.js
+2019-01-02T02:03:54.117Z DEBUG wdio-local-runner: Runner 0-0 finished with exit code 0
+2019-01-02T02:03:54.245Z INFO wdio-cli:Launcher: Run onComplete hook
